@@ -10,13 +10,13 @@
 
 
 #content {
-  padding-top: 3em;
+  padding-top: 5em;
+
+  background: url("../images/backgrounds/backslant-home-top.svg") center top no-repeat;
+  /*background: url("../images/backgrounds/backslant-home-repeat.svg") center;
+  background: url("../images/backgrounds/backslant-footer.svg") bottom no-repeat;*/
+
 }
-
-
-
-
-
 
 /* Mobile */
 
