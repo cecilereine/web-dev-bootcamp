@@ -12,47 +12,105 @@
 </head>
 <body>
 	<!-- MENU BAR BEGIN -->
-	<div class="widescreen only">
-		<div class="ui secondary pointing fixed menu menu-bar">	
-			<img class="image" src="images/lockup.png">
-			
-			<a class="active item">
-				Products
-			</a>
-			<a class="item">
-				Use Cases
-			</a>
-			<a class="item">
-				Pricing
-			</a>
-			<a class="item">
-				Docs
-			</a>
-			<a class="item">
-				Support
-			</a>
-			<div class="right menu">			
-				<div class="ui icon input">
-				<i class="search icon"></i>
-				<input class="prompt" type="text" placeholder="SEARCH">
-				</div>
-			
-				<a class="ui item">
-					GO TO CONSOLE
-				</a>
-				<a class="ui item">
-					SIGN IN
-				</a>
+	<div class="ui fixed secondary pointing menu menu-bar">	
+		<img class="image" src="images/lockup.png">
+		
+		<a class="active item">
+			Products
+		</a>
+		<a class="item">
+			Use Cases
+		</a>
+		<a class="item">
+			Pricing
+		</a>
+		<a class="item">
+			Docs
+		</a>
+		<a class="item">
+			Support
+		</a>
+		<div class="right menu">			
+			<div class="ui icon input tablet hidden mobile hidden">
+			<i class="search icon"></i>
+			<input class="prompt" type="text" placeholder="SEARCH">
 			</div>
+			
+			<a class="ui item mobile hidden">
+				GO TO CONSOLE
+			</a>
+
+			<a class="ui item">
+				SIGN IN
+			</a>
 		</div>
 	</div>
 	<!-- MENU BAR END -->
 
 	<!-- Firebase Crashlyrics Begin -->
-	<div class="ui container"></div>
+	<br>
+	<br>
 	<!-- Firebase Crashlytics End-->
 
-	<!-- First Block | BEGIN -->
-	<!-- First Block | END -->
+	<!-- MAIN CONTENT -->
+	<div id="content">
+		<!-- First Block | BEGIN -->
+		<div class="ui container">
+			<div class="ui segment">
+				<h1 class="ui header">
+					Firebase helps you build better mobile apps and grow your business.
+				</h1>
+				<br>
+				<button class="ui primary button mobile hidden">GET STARTED</button>
+				<button class="ui primary button fluid mobile only tablet hidden">GET STARTED</button>
+
+				<!-- video buttons -->
+				<button class="ui basic button mobile hidden">
+					<i class="play circle icon"></i>WATCH THE VIDEO
+				</button>
+				<br>
+				<button class="ui basic button fluid mobile only tablet hidden">
+					<i class="play circle icon"></i>WATCH THE VIDEO
+				</button>
+
+				<br>
+				<br>
+				<!-- content grid -->
+				<div class="ui stackable three column grid">
+					<div class="column">
+						<h3 class="ui header">Build apps fast, without managing infrastrucure</h3>
+						<p>Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.</p>
+					</div>
+					<div class="column">
+						<h3 class="ui header">Backed by Google, trusted by top apps</h3>
+						<p>Firebase is built on Google infrastructure and scales automatically, for even the largest apps.</p>
+					</div>
+					<div class="column">
+						<h3 class="ui header">One console, with products that work together</h3>
+						<p>Firebase products work great individually but share data and insights, so they work even better together.</p>
+					</div>
+				</div>
+
+				<!-- segment footer -->
+			</div>
+		</div>
+		<!-- First Block | END -->
+
+		<br>
+
+		<!-- Second Block | BEGIN -->
+		<div class="ui container">
+			<div class="ui segment">
+				<h1 class="ui header">
+					Mix and match complementary products
+				</h1>
+				
+
+				<!-- segment footer -->
+			</div>
+		</div>
+		<!-- Second Block | END -->
+	</div>
+
 </body>
 </html>
