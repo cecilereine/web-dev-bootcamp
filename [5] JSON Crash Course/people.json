@@ -1,0 +1,53 @@
+{
+	"people": [
+		{
+			"name": "Nayeon",
+			"age": 23
+		},
+
+		{
+			"name": "Jeongyeon",
+			"age": 22
+		},
+
+		{
+			"name": "Momo",
+			"age": 22
+		},
+
+		{
+			"name": "Sana",
+			"age": 22
+		},
+
+		{
+			"name": "Jihyo",
+			"age": 21
+		},
+
+		{
+			"name": "Mina",
+			"age": 21
+		},
+
+		{
+			"name": "Dahyun",
+			"age": 20
+		},
+
+		{
+			"name": "Dahyun",
+			"age": 20
+		},
+
+		{
+			"name": "Chaeyong",
+			"age": 19
+		},
+
+		{
+			"name": "Tzuyu",
+			"age": 19
+		}
+	]
+}
