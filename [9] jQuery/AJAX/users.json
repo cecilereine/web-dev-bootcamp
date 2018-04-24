@@ -1,0 +1,27 @@
+[
+    {
+        "firstName": "Jeongyeon",
+        "lastName": "Yoo",
+        "email": "yoojy@gmail.com"
+    },
+    {
+        "firstName": "Tzuyu",
+        "lastName": "Chou",
+        "email": "choutzu@gmail.com"
+    },
+    {
+        "firstName": "Sana",
+        "lastName": "Minatozaki",
+        "email": "sanajjang@gmail.com"
+    },
+    {
+        "firstName": "Momo",
+        "lastName": "Hirai",
+        "email": "momojjang@gmail.com"
+    },
+    {
+        "firstName": "Chaeyoung",
+        "lastName": "Son",
+        "email": "nojamchae@gmail.com"
+    }
+]
