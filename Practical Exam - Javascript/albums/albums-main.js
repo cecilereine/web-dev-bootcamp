@@ -10,7 +10,7 @@ $(document).ready(function(){
             if(album.userId == userid){            
                 let textToAppend =
                     `<h3>${album.title}</h3>
-                    <a href="#" onclick="goToAlbum(${album.id})">Show Album Photos</a>
+                    <a href="#" onclick="goToAlbum(${album.id},'${album.title}')">Show Album Photos</a>
                     `;
                 $('#albums').append(textToAppend);
             }
@@ -18,8 +18,9 @@ $(document).ready(function(){
     });
 });
 
-function goToAlbum(albumid){
+function goToAlbum(albumid, albumtitle){
     localStorage.setItem("albumid", albumid);
+    localStorage.setItem("albumTitle", albumtitle);
     window.location.href = "../photos/photos.html";
 
 }
