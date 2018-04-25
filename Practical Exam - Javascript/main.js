@@ -12,7 +12,8 @@ $(document).ready(function(){
                 `<li>
                     <h4>Name: ${user.name}</h4>
                     <p>Username: ${user.username}</p>
-                    <a href="#" onclick="setUserid(${user.id})" id="postUser${user.id}">POSTS</a>
+                    <a href="#" onclick="goToPosts(${user.id})" id="postUser${user.id}">POSTS</a>
+                    <a href="#" onclick="goToAlbums(${user.id})" id="albumUser${user.id}">ALBUMS</a>
                 </li><br>`;
                
             $('ul#userlist').append(textToAppend);                  
@@ -20,7 +21,12 @@ $(document).ready(function(){
     });
 });
 
-function setUserid(userid){
+function goToPosts(userid){
      localStorage.setItem("userid", userid);
      window.location.href = "posts/posts.html";
+}
+
+function goToAlbums(userid){
+    localStorage.setItem("userid", userid);
+    window.location.href = "albums/albums.html";
 }
